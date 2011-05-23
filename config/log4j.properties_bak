@@ -1,0 +1,25 @@
+log4j.rootLogger=INFO, stdout, file
+
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%d %p [%c](%F:%L) - %m%n
+#log4j.appender.stdout.layout.ConversionPattern = %d%5p[%t](%F:%L)-%m%n
+
+log4j.appender.logfile=org.apache.log4j.RollingFileAppender
+log4j.appender.logfile.File=d:/logs/nutz-mvc.log
+log4j.appender.logfile.MaxFileSize=4096KB
+# Keep three backup files.
+log4j.appender.logfile.MaxBackupIndex=3
+# Pattern to output: date priority [category] - message
+log4j.appender.logfile.layout=org.apache.log4j.PatternLayout
+log4j.appender.logfile.layout.ConversionPattern=%d %p [%c](%F:%L) - %m%n
+#log4j.appender.logfile.layout.ConversionPattern=%d %5p [%t] (%F:%L) - %m%n 
+
+log4j.rootCategory=INFO,file
+log4j.appender.file=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.file.DatePattern='.'yyyy-MM-dd
+log4j.appender.file.File=d:/logs/nutz-mvc.log
+log4j.appender.file.Append=true
+log4j.appender.file.Threshold=INFO
+log4j.appender.file.layout=org.apache.log4j.PatternLayout
+log4j.appender.file.layout.ConversionPattern=%d - %m%n

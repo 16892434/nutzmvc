@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="config"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0_16">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v6.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/nutz-1.b.34.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-dbcp-1.2.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-pool-1.4.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mysql-connector-java-5.1.12-bin.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-digester-2.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jcl-over-slf4j-1.5.8.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/servlet-api-2.4.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-api-2.2.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-core-2.2.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-jsp-2.2.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-servlet-2.2.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/slf4j-log4j12-1.5.11.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-plugin.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tiles-portlet-2.2.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/portlet-api-1.0.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
